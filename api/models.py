@@ -1,5 +1,5 @@
-from django.db import models
 from tastypie.resources import ModelResource
+from django.db import models
 from movies.models import Movies
 
 class MovieResource(ModelResource):
